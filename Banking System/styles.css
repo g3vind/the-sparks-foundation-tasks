@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("background.png"); /* Add your background image */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.account {
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 10px; /* Increase input padding for better visibility */
+}
+
+button {
+  padding: 10px 20px; /* Increase button size */
+  margin: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#balance {
+  font-size: 24px; /* Increase font size */
+}
+
+.currency {
+  font-weight: bold;
+  font-size: 20px; /* Adjust font size */
+}
